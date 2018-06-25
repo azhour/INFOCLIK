@@ -1,0 +1,70 @@
+html,body
+{
+  background-color: darkcyan;
+}
+li
+{display: inline-block;
+}
+
+p
+{
+  font-size: xx-large;
+  color: #090930;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.Menu,li
+{
+  margin-right: 30px;
+  color: #090930;
+  font-weight: bold;
+  font-size: x-large;
+  list-style-type: circle;
+  display: inline;
+}
+.Menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #090930;
+}
+
+.Menu li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#090930;
+  }
+
+    div.produit1, .produit2, .produit3 {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+    }
+
+    div.produit1, .produit2, .produit3 :hover {
+        border: 1px solid #777;
+    }
+
+    div.produit1, .produit2, .produit3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.Nom, .Nom2, .Nom3{
+        padding: 15px;
+        text-align: center;
+    }
